@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="shortcut icon" href="ss.jpg" type="image/x-icon">
+        
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        
+        <!-- Font Awesome for icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        
+        <!-- Your custom CSS -->
+        <link rel="stylesheet" href="styles.css">
+        <!-- Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </head>
+<body>
+    
+    <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#home">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>    
+
+<!-- Home Section -->
+<section id="home" class="hero-section">
+    <div class="container">
+        <div class="row align-items-center min-vh-100">
+            <div class="col-lg-6 content-col">
+                <div class="hero-content">
+                    <h1 class="display-4 fw-bold mb-3">Hi, I'm <span class="highlight">Sebastian Adababu</span></h1>
+                    <p class="lead mb-4">Frontend Developer crafting responsive and user-friendly web experiences</p>
+                    <div class="hero-btns">
+                        <a href="video-gallery.html" class="btn btn-primary btn-lg me-3">View My Work</a>
+                        <a href="contact.html" class="btn btn-outline-primary btn-lg">Contact Me</a>
+                    </div>
+                   <!-- In the hero section -->
+<div class="social-links mt-4">
+    <a href="https://github.com/sebastianadababu" target="_blank" class="social-icon" title="GitHub">
+        <i class="fab fa-github"></i>
+    </a>
+    <a href="https://linkedin.com/in/sebastian-adababu" target="_blank" class="social-icon" title="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://twitter.com/sebastianadababu" target="_blank" class="social-icon" title="Twitter">
+        <i class="fab fa-twitter"></i>
+    </a>
+    <a href="https://instagram.com/sebastian-rich" target="_blank" class="social-icon" title="Instagram">
+        <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://wa.me/+233559778504" target="_blank" class="social-icon" title="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+</div>
+                </div>
+            </div>
+            <div class="col-lg-6 image-col">
+                <div class="hero-image">
+                    <img src="s.jpg" alt="Profile Picture" class="img-fluid rounded-circle">
+              
+                    <div class="experience-badge" style="height: 10%; font-size: 15px;">
+                        2+ Years Experience
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="scroll-down">
+        <a href="#about"><i class="fas fa-chevron-down"></i></a>
+    </div>
+</section>
+
+<!-- Project Section -->
+<section id="projects" class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="section-title">My Projects</h2>
+            <ul class="project-filter">
+                <li><a href="#" data-filter="all" class="active">All</a></li>
+                <li><a href="#" data-filter="web-development">Web Development</a></li>
+                <li><a href="#" data-filter="mobile-app-development">Mobile App Development</a></li>
+            </ul>
+            <div class="project-container">
+                <!-- Project 1 -->
+                <div class="project-card" data-category="web-development">
+                    <img src="" alt="Project 1">
+                    <div class="project-content">
+                        <h3 style="color: white;">Hospital-Website</h3>
+                        <p style="color: white;">Quality Health care center</p>
+                        <ul class="technologies">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                        <div class="project-buttons">
+                            <a href="https://github.com/Sebastian-Adababu/HospitalWebsite" target="_blank" class="project-btn github-btn">
+                                <i class="fab fa-github"></i> Github
+                            </a>
+                            <a href="https://sebastian-adababu.github.io/HospitalWebsite/" target="_blank" class="project-btn demo-btn">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-category="web-development">
+                    <img src="" alt="Project 2">
+                    <div class="project-content">
+                        <h3  style="color: white;">Landing page</h3>
+                        <p style="color: white;">Short description of project 2.</p>
+                        <ul class="technologies">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                        <div class="project-buttons">
+                            <a href="https://github.com/Sebastian-Adababu/LandingPage.git" target="_blank" class="project-btn github-btn">
+                                <i class="fab fa-github"></i> Github
+                            </a>
+                            <a href="https://landing-page-silk-gamma.vercel.app" target="_blank" class="project-btn demo-btn">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card" data-category="mobile-app-development">
+                    <img src="" alt="Project 3">
+                    <div class="project-content">
+                        <h3>Project 3</h3>
+                        <p>Short description of project 3.</p>
+                        <ul class="technologies">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                        <div class="project-buttons">
+                            <a href="https://github.com/yourusername/project3" target="_blank" class="project-btn github-btn">
+                                <i class="fab fa-github"></i> Github
+                            </a>
+                            <a href="https://your-live-demo-url.com/project3" target="_blank" class="project-btn demo-btn">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- About Section -->
+<section id="about" class="container-fluid py-5">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="section-title text-center mb-5">About Me</h2>
+            
+            <!-- Professional Summary -->
+            <div class="professional-summary mb-5">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                        <div class="profile-image-container">
+                            <img src="ss.jpg" alt="Sebastian Adababu" class="img-fluid rounded-circle profile-image">
+                        </div>
+                    
+                            <div class="experience-badge" style="height: 10px;">
+                                2+ Years Experience
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="about-content">
+                            <h3 class="mb-4">Frontend Developer</h3>
+                            <p class="lead mb-4">
+                                Hello! I'm Sebastian Adababu, a passionate Frontend Developer based in Atitteti, VR. 
+                                I specialize in creating responsive and user-friendly web experiences that combine 
+                                clean code with attractive design.
+                            </p>
+                            <div class="key-points">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <ul class="list-unstyled">
+                                            <li><i class="fas fa-check-circle"></i> Frontend Development</li>
+                                            <li><i class="fas fa-check-circle"></i> Responsive Design</li>
+                                            
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <ul class="list-unstyled">
+                                            <li><i class="fas fa-check-circle"></i> Web Optimization</li>
+                                            <li><i class="fas fa-check-circle"></i> Cross-browser Compatibility</li>
+                                          
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <ul class="list-unstyled">
+                                            <li><i class="fas fa-check-circle"></i> Modern Web Technologies</li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills Section -->
+            <div class="skills-section mb-5">
+                <h3 class="text-center mb-4">Technical Skills</h3>
+                <div class="row">
+                    <!-- Technical Skills -->
+                    <div class="col-md-6">
+                        <h4 class="mb-3">Development Skills</h4>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>HTML5</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>CSS3</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>JavaScript</span>
+                                <span>30%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>React.js</span>
+                                <span>15%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Soft Skills -->
+                    <div class="col-md-6">
+                        <h4 class="mb-3">Soft Skills</h4>
+                        <div class="soft-skills">
+                            <div class="soft-skill-item">
+                                <div class="soft-skill-icon">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                                <div class="soft-skill-info">
+                                    <h5>Team Collaboration</h5>
+                                    <p>Excellent team player with strong communication skills</p>
+                                </div>
+                            </div>
+                            <div class="soft-skill-item">
+                                <div class="soft-skill-icon">
+                                    <i class="fas fa-lightbulb"></i>
+                                </div>
+                                <div class="soft-skill-info">
+                                    <h5>Problem Solving</h5>
+                                    <p>Analytical thinker with creative solution approaches</p>
+                                </div>
+                            </div>
+                            <div class="soft-skill-item">
+                                <div class="soft-skill-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="soft-skill-info">
+                                    <h5>Time Management</h5>
+                                    <p>Efficient in managing multiple projects and deadlines</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education & Certifications -->
+            <div class="education-section mb-5">
+                <h3 class="text-center mb-4">Education & Certifications</h3>
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="education-item">
+                            <div class="education-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="education-info">
+                                <h5>Bachelor's in Computer Science</h5>
+                                <p>University Name</p>
+                                <span class="education-year">2020 - 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="education-item">
+                            <div class="education-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <div class="education-info">
+                                <h5>Web Development Certification</h5>
+                                <p>Certification Provider</p>
+                                <span class="education-year">2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Interests -->
+            <div class="interests-section">
+                <h3 class="text-center mb-4">Interests & Hobbies</h3>
+                <div class="row">
+                    <div class="col-md-3 mb-4">
+                        <div class="interest-card">
+                            <i class="fas fa-code"></i>
+                            <h5>Coding</h5>
+                            <p> Exploring new programming languages and frameworks</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="interest-card">
+                            <i class="fas fa-music"></i>
+                            <h5>Music</h5>
+                            <p>Listening to world music</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="interest-card">
+                            <i class="fas fa-book"></i>
+                            <h5>Reading</h5>
+                            <p>Staying updated on the latest tech trends and innovations</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="interest-card">
+                            <i class="fas fa-brush"></i>
+                            <h5>Painting</h5>
+                            <p>Making Your Vision a Vibrant Reality</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Contact section-->
+<section id="contact" class="container-fluid py-5">
+    <div class="row">
+        <div class="col-md-12 text-center mb-5">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="lead">I'm always open to new opportunities and collaborations. Feel free to reach out!</p>
+        </div>
+        <div class="col-md-6">
+            <form class="contact-form" id="contactForm" onsubmit="return sendEmail(event)">
+                <div class="form-group mb-3">
+                    <label for="name" class="form-label" style="color: white;">Name:</label>
+                    <input type="text" id="name" name="name" class="form-control" required>
+                </div>
+                <div class="form-group mb-3">
+                    <label for="email" class="form-label" style="color: white;">Email:</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+                </div>
+                <div class="form-group mb-3">
+                    <label for="subject" class="form-label" style="color: white;">Subject:</label>
+                    <input type="text" id="subject" name="subject" class="form-control" required>
+                </div>
+                <div class="form-group mb-3">
+                    <label for="message" class="form-label" style="color: white;">Message:</label>
+                    <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg" id="submitBtn">
+                    <span class="button-text">Send Message</span>
+                    <span class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
+                </button>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <div class="contact-info">
+                <h3 class="mb-4">Contact Information</h3>
+                <ul class="list-unstyled">
+                    <li class="mb-3">
+                        <i class="fas fa-map-marker-alt me-2"></i>
+                        <span>Atitteti, VR 123</span>
+                    </li>
+                    <li class="mb-3">
+                        <i class="fas fa-phone me-2"></i>
+                        <span>+233 559778504</span>
+                    </li>
+                    <li class="mb-3">
+                        <i class="fas fa-envelope me-2"></i>
+                        <span><a href="mailto:Sebastianadababu123@email.com">Sebastianadababu123@email.com</a></span>
+                    </li>
+                </ul>
+            </div>
+             <!-- Toast Notification -->
+    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+        <div id="toastNotification" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <strong class="me-auto" id="toastTitle">Notification</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body" id="toastMessage">
+            </div>
+        </div>
+          </div>        
+        </div>
+    </div>
+
+</section>
+
+
+
+       
+            
+
+<!---Footer secton-->
+<footer class="footer">
+    <div class="footer-content container">
+        <!-- Main Footer Content -->
+        <div class="row">
+            <!-- About Column -->
+            <div class="col-md-4 footer-section">
+                <h4>About Me</h4>
+                <p class="footer-about">
+                    Frontend Developer passionate about creating beautiful and functional web experiences. Based in Atitteti, VR.
+                </p>
+              <!-- In the footer -->
+<div class="footer-social">
+    <a href="https://github.com/sebastianadababu" target="_blank" class="social-link" title="GitHub">
+        <i class="fab fa-github"></i>
+    </a>
+    <a href="https://linkedin.com/in/sebastian-adababu" target="_blank" class="social-link" title="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://twitter.com/sebastianadababu" target="_blank" class="social-link" title="Twitter">
+        <i class="fab fa-twitter"></i>
+    </a>
+    <a href="https://wa.me/+233559778504" target="_blank" class="social-link" title="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+</div>
+            </div>
+
+            <!-- Quick Links Column -->
+            <div class="col-md-4 footer-section">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                    <li><a href="#about"><i class="fas fa-chevron-right"></i> About</a></li>
+                    <li><a href="#projects"><i class="fas fa-chevron-right"></i> Projects</a></li>
+                    <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Column -->
+            <div class="col-md-4 footer-section">
+                <h4>Contact Info</h4>
+                <ul class="footer-contact">
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Atitteti, VR 123</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone"></i>
+                        <span>(+233) 559778504</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <span>Sebastianadababu123@email.com</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Copyright Section -->
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="copyright">
+                        © 2024 Sebastian Adababu. All Rights Reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <div class="scroll-to-top">
+        <a href="#home" class="scroll-btn">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+    </div>
+</footer>
+
+
+
+<script src="scirpt.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</body>
+</html>
